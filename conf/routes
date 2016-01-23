@@ -13,3 +13,5 @@ POST    /comment                    controllers.Application.comment(author, text
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 GET     /webjars/*file              controllers.WebJarAssets.at(file)
 GET     /comments                   controllers.Application.comments
+GET     /react                      controllers.Application.react
+GET     /project_info               controllers.Application.projectInfo

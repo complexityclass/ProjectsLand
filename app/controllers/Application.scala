@@ -46,4 +46,14 @@ class Application extends Controller {
         Ok(newComment)
     }
 
+    //learn react
+    def react = Action {
+        Ok(views.html.projects_list())
+    }
+
+    def projectInfo = Action {
+        val buttonInfo = Json.obj("project_name" -> "Coubera")
+        Ok(buttonInfo)
+    }
+
 }
