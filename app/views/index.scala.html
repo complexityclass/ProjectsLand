@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script type="text/javascript" src='@routes.WebJarAssets.at(WebJarAssets.fullPath("react", "react.js"))'></script>
-</head>
+@(message: String)
 
-<body>
-    <div id="content"></div>
-</body>
+@main("Welcome to Play") {
 
-</html>
+@play20.welcome(message)
+
+}
